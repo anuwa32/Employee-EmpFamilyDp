@@ -49,7 +49,6 @@ const Employee = () => {
       }
     }
   };
-
   return (
     <div>
       <Sidebar />
@@ -155,13 +154,11 @@ const Employee = () => {
         </div>
       </div>
 
-
       <Link to="">
         <button type="button" onClick={refreshPage} className={styles.clear_btn}>
           Clear
         </button>
       </Link>
-
     </div>
   );
 
